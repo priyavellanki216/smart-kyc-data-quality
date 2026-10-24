@@ -1,0 +1,14 @@
+﻿case_id,client_id,legal_name,status,priority_score,priority_band,assigned_reviewer,opened_at,age_days,open_exception_count
+CASE-DC529DDCCCBF,SYN-0010,Crown Ridge Logistics Ltd,pending,60,High,,2026-10-24T09:16:33+00:00,0,1
+CASE-34CDA0B756FE,SYN-0002,,in_review,45,Medium,Demo Analyst,2026-10-24T09:16:33+00:00,0,1
+CASE-5F57E53FC8C1,SYN-0006,Orchid Harbor Systems Ltd,pending,45,Medium,,2026-10-24T09:16:33+00:00,0,1
+CASE-DA93DB4EAA4E,SYN-0005,Lindenport Foods Ltd,pending,40,Medium,,2026-10-24T09:16:33+00:00,0,1
+CASE-C4FA9E3F69B2,SYN-0007,Bluehaven Logistics Ltd,pending,35,Medium,,2026-10-24T09:16:33+00:00,0,1
+CASE-620F21A10F64,SYN-0009,Crownridge Logistics Ltd,pending,25,Low,,2026-10-24T09:16:33+00:00,0,1
+CASE-E83583C7BF68,SYN-0003,Vela Biotechnologies Ltd,pending,20,Low,,2026-10-24T09:16:33+00:00,0,1
+CASE-874A0DB46705,SYN-0004,Cairnfield Energy Group Ltd,pending,20,Low,,2026-10-24T09:16:33+00:00,0,1
+CASE-39C4969DF78A,SYN-0011,Meridian Field Services Ltd,pending,15,Low,,2026-10-24T09:16:33+00:00,0,0
+CASE-983158670C35,SYN-0012,Pinewell Manufacturing Ltd,pending,15,Low,,2026-10-24T09:16:33+00:00,0,0
+CASE-5B44068DB464,SYN-0033,Harborfield Analytics Ltd,pending,15,Low,,2026-10-24T09:16:33+00:00,0,0
+CASE-3D2D552C177B,SYN-0034,Harbor Field Analytics Inc,pending,15,Low,,2026-10-24T09:16:33+00:00,0,0
+CASE-656069A6D5DE,SYN-0008,Westbridge Components Ltd,pending,10,Low,,2026-10-24T09:16:33+00:00,0,1

@@ -1,0 +1,55 @@
+-- Assumes the relationships described in dashboard_spec.md and imported CSV tables.
+
+Total Clients = DISTINCTCOUNT(dim_client[client_id])
+
+Complete KYC Files =
+CALCULATE(
+    DISTINCTCOUNT(dim_client[client_id]),
+    dim_client[kyc_complete] = 1
+)
+
+Incomplete KYC Files = [Total Clients] - [Complete KYC Files]
+
+Open Exceptions =
+CALCULATE(
+    COUNTROWS(fact_exceptions),
+    fact_exceptions[status] = "open"
+)
+
+Open High/Critical Exceptions =
+CALCULATE(
+    COUNTROWS(fact_exceptions),
+    fact_exceptions[status] = "open",
+    fact_exceptions[severity] IN {"high", "critical"}
+)
+
+Open Review Cases =
+CALCULATE(
+    DISTINCTCOUNT(fact_review_cases[case_id]),
+    NOT (fact_review_cases[status] IN {"resolved", "closed"})
+)
+
+Mean Rule Priority = AVERAGE(fact_review_cases[priority_score])
+
+Potential Duplicate Pairs =
+CALCULATE(
+    DISTINCTCOUNT(fact_duplicate_candidates[candidate_id]),
+    fact_duplicate_candidates[status] = "candidate"
+)
+
+False Positive Candidate Pairs =
+CALCULATE(
+    DISTINCTCOUNT(fact_duplicate_candidates[candidate_id]),
+    fact_duplicate_candidates[status] = "false_positive"
+)
+
+Confirmed Duplicate Pairs =
+CALCULATE(
+    DISTINCTCOUNT(fact_duplicate_candidates[candidate_id]),
+    fact_duplicate_candidates[status] = "confirmed_duplicate"
+)
+
+Recorded Review Actions = DISTINCTCOUNT(fact_review_actions[action_id])
+
+-- These measures count current rows; imported snapshots have no refresh timestamp dimension.
+-- Do not interpret the priority score as a probability or client/financial-crime risk estimate.
