@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-kyc-data-quality"
+version = "1.0.0"
+description = "Synthetic corporate KYC data quality and analyst review prototype"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2,<3",
+  "RapidFuzz>=3.9,<4",
+  "streamlit>=1.49,<2",
+  "openpyxl>=3.1,<4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

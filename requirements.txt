@@ -1,0 +1,5 @@
+pandas>=2.2,<3
+RapidFuzz>=3.9,<4
+streamlit>=1.49,<2
+openpyxl>=3.1,<4
+pytest>=8.3,<10

@@ -1,0 +1,61 @@
+{
+  "date_format": "%Y-%m-%d",
+  "mandatory_client_fields": [
+    "legal_name",
+    "registration_number",
+    "jurisdiction",
+    "registered_address",
+    "country",
+    "incorporation_date",
+    "onboarding_date",
+    "periodic_review_due"
+  ],
+  "mandatory_address_components": 2,
+  "registration_number_pattern": "^[A-Z0-9][A-Z0-9/-]{3,24}$",
+  "duplicate_threshold": 86,
+  "duplicate_block_exact_pair_from_fuzzy": true,
+  "priority": {
+    "max_score": 100,
+    "weights": {
+      "mandatory_missing": 25,
+      "expired_document": 20,
+      "conflicting_attributes": 15,
+      "duplicate_candidate": 15,
+      "severity_critical": 30,
+      "severity_high": 20,
+      "severity_medium": 10,
+      "severity_low": 5,
+      "age_14_days": 10,
+      "age_30_days": 10
+    },
+    "age_days": {
+      "first_threshold": 14,
+      "second_threshold": 30
+    },
+    "bands": {
+      "critical": 80,
+      "high": 60,
+      "medium": 30
+    }
+  },
+  "case_transitions": {
+    "pending": ["in_review", "closed"],
+    "in_review": ["awaiting_information", "resolved", "closed", "pending"],
+    "awaiting_information": ["in_review", "resolved", "closed"],
+    "resolved": [],
+    "closed": []
+  },
+  "rules": {
+    "REQ-001": {"category": "completeness", "severity": "high", "title": "Mandatory client field missing"},
+    "REG-001": {"category": "identity", "severity": "high", "title": "Registration number format invalid"},
+    "INC-001": {"category": "dates", "severity": "high", "title": "Incorporation date invalid or in the future"},
+    "DATE-001": {"category": "dates", "severity": "medium", "title": "Client date sequence inconsistent"},
+    "BO-001": {"category": "ownership", "severity": "high", "title": "Beneficial-owner information missing"},
+    "BO-002": {"category": "ownership", "severity": "high", "title": "Beneficial-owner percentage invalid"},
+    "DOC-001": {"category": "documentation", "severity": "high", "title": "Supporting documentation missing"},
+    "DOC-002": {"category": "documentation", "severity": "high", "title": "Supporting document expired"},
+    "ADDR-001": {"category": "address", "severity": "medium", "title": "Registered address incomplete"},
+    "ATTR-001": {"category": "attributes", "severity": "high", "title": "Country and jurisdiction conflict"},
+    "REV-001": {"category": "review", "severity": "medium", "title": "Periodic review overdue"}
+  }
+}
