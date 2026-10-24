@@ -1,0 +1,12 @@
+﻿rule_id,category,severity,title
+REQ-001,completeness,high,Mandatory client field missing
+REG-001,identity,high,Registration number format invalid
+INC-001,dates,high,Incorporation date invalid or in the future
+DATE-001,dates,medium,Client date sequence inconsistent
+BO-001,ownership,high,Beneficial-owner information missing
+BO-002,ownership,high,Beneficial-owner percentage invalid
+DOC-001,documentation,high,Supporting documentation missing
+DOC-002,documentation,high,Supporting document expired
+ADDR-001,address,medium,Registered address incomplete
+ATTR-001,attributes,high,Country and jurisdiction conflict
+REV-001,review,medium,Periodic review overdue

@@ -1,0 +1,41 @@
+﻿client_id,legal_name,registration_number,country,jurisdiction,review_status,required_fields_complete,kyc_complete,beneficial_owner_count,document_count,open_exception_count,total_exception_count,exception_categories,quality_status
+SYN-0001,Northstar Marine Holdings Ltd,GB-07000000,GB,GB,onboarding,1,1,2,1,0,0,,Complete
+SYN-0002,,IE-07000001,IE,IE,onboarding,0,0,2,1,1,1,completeness,Needs review
+SYN-0003,Vela Biotechnologies Ltd,??INVALID,SG,SG,onboarding,1,0,2,1,1,1,identity,Needs review
+SYN-0004,Cairnfield Energy Group Ltd,US-07000003,US,US,onboarding,1,0,2,1,1,1,dates,Needs review
+SYN-0005,Lindenport Foods Ltd,GB-07000004,GB,GB,onboarding,1,0,2,1,1,1,documentation,Needs review
+SYN-0006,Orchid Harbor Systems Ltd,US-07000005,US,US,onboarding,1,0,0,1,1,1,ownership,Needs review
+SYN-0007,Bluehaven Logistics Ltd,IE-07000006,IE,GB,onboarding,1,0,2,1,1,1,attributes,Needs review
+SYN-0008,Westbridge Components Ltd,IE-07000007,IE,IE,onboarding,1,0,2,1,1,1,address,Needs review
+SYN-0009,Crownridge Logistics Ltd,GB-07000008,GB,GB,onboarding,1,0,2,1,1,1,review,Needs review
+SYN-0010,Crown Ridge Logistics Ltd,IE-07000009,IE,IE,onboarding,1,0,2,0,1,1,documentation,Needs review
+SYN-0011,Meridian Field Services Ltd,IE-07000011,IE,IE,onboarding,1,0,2,1,0,0,,Needs review
+SYN-0012,Pinewell Manufacturing Ltd,IE-07000011,IE,IE,onboarding,1,0,2,1,0,0,,Needs review
+SYN-0013,Silverstrand Materials Ltd,IE-07000012,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0014,Granite Peak Consulting Ltd,IE-07000013,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0015,Solstice Renewables Ltd,IE-07000014,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0016,Ashford Data Works Ltd,SG-07000015,SG,SG,onboarding,1,1,2,1,0,0,,Complete
+SYN-0017,Evermere Trading Ltd,GB-07000016,GB,GB,onboarding,1,1,2,1,0,0,,Complete
+SYN-0018,Fairwater Medical Group Ltd,US-07000017,US,US,onboarding,1,1,2,1,0,0,,Complete
+SYN-0019,Redfern Equipment Ltd,GB-07000018,GB,GB,onboarding,1,1,2,1,0,0,,Complete
+SYN-0020,Highland Orbit Technologies Ltd,US-07000019,US,US,onboarding,1,1,2,1,0,0,,Complete
+SYN-0021,Stonegate Supply Ltd,IE-07000020,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0022,Brightmere Aviation Ltd,US-07000021,US,US,onboarding,1,1,2,1,0,0,,Complete
+SYN-0023,Keystone Orchard Group Ltd,SG-07000022,SG,SG,onboarding,1,1,2,1,0,0,,Complete
+SYN-0024,Ternwell Industries Ltd,SG-07000023,SG,SG,onboarding,1,1,2,1,0,0,,Complete
+SYN-0025,Newhaven Textiles Ltd,US-07000024,US,US,onboarding,1,1,2,1,0,0,,Complete
+SYN-0026,Brookfield Process Systems Ltd,IE-07000025,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0027,Arborline Mobility Ltd,IE-07000026,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0028,Mariner's Gate Ventures Ltd,US-07000027,US,US,onboarding,1,1,2,1,0,0,,Complete
+SYN-0029,Westvale Packaging Ltd,IE-07000028,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0030,Summit Lantern Labs Ltd,IE-07000029,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0031,Willowbank Infrastructure Ltd,GB-07000030,GB,GB,onboarding,1,1,2,1,0,0,,Complete
+SYN-0032,Clearpath Industrial Ltd,GB-07000031,GB,GB,onboarding,1,1,2,1,0,0,,Complete
+SYN-0033,Harborfield Analytics Ltd,US-07000032,US,US,onboarding,1,0,2,1,0,0,,Needs review
+SYN-0034,Harbor Field Analytics Inc,SG-07000033,SG,SG,onboarding,1,0,2,1,0,0,,Needs review
+SYN-0035,Juniper Crest Foods Ltd,GB-07000034,GB,GB,onboarding,1,1,2,1,0,0,,Complete
+SYN-0036,Cedarline Networks Ltd,US-07000035,US,US,onboarding,1,1,2,1,0,0,,Complete
+SYN-0037,Windward Estates Ltd,SG-07000036,SG,SG,onboarding,1,1,2,1,0,0,,Complete
+SYN-0038,Mosaic River Products Ltd,IE-07000037,IE,IE,onboarding,1,1,2,1,0,0,,Complete
+SYN-0039,Northpoint Precision Ltd,SG-07000038,SG,SG,onboarding,1,1,2,1,0,0,,Complete
+SYN-0040,Fieldstone Digital Ltd,IE-07000039,IE,IE,onboarding,1,1,2,1,0,0,,Complete

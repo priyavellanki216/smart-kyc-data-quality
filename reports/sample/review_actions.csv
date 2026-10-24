@@ -1,0 +1,2 @@
+﻿action_id,case_id,action_type,reviewer,note,previous_status,new_status,created_at
+ACT-64159FE0E10C40,CASE-34CDA0B756FE,evidence_requested,Demo Analyst,Synthetic sample action: requested a corrected legal-name record; follow-up remains open.,pending,in_review,2026-10-24T09:16:33+00:00

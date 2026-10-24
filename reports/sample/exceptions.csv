@@ -1,0 +1,10 @@
+﻿exception_id,client_id,rule_id,category,severity,reason,evidence,detected_at,status
+EXC-05F2E82491981D,SYN-0002,REQ-001,completeness,high,Mandatory client field 'legal_name' is missing.,field=legal_name; value=<blank>,2026-10-24T09:16:33+00:00,open
+EXC-56D2C5A8F2E760,SYN-0003,REG-001,identity,high,Registration number does not match the configured format.,registration_number=??INVALID,2026-10-24T09:16:33+00:00,open
+EXC-750BE6A9DEBE48,SYN-0004,INC-001,dates,high,Incorporation date is in the future.,value=2028-01-01; as_of=2026-10-24,2026-10-24T09:16:33+00:00,open
+EXC-F36E68C702DAFB,SYN-0005,DOC-002,documentation,high,Supporting document has expired.,document_id=DOC-0005-INC; expiry=2024-01-01; as_of=2026-10-24,2026-10-24T09:16:33+00:00,open
+EXC-F7CC5C6CD74E00,SYN-0006,BO-001,ownership,high,No beneficial-owner information is recorded for this corporate client.,beneficial_owner_count=0,2026-10-24T09:16:33+00:00,open
+EXC-4F5B855F3F6E8A,SYN-0007,ATTR-001,attributes,high,Country of registration conflicts with the client country attribute.,jurisdiction=GB; country=IE,2026-10-24T09:16:33+00:00,open
+EXC-CD2B8D4C997768,SYN-0008,ADDR-001,address,medium,Registered address is incomplete under the configured component rule.,address=London; components=1,2026-10-24T09:16:33+00:00,open
+EXC-635FB8339626D2,SYN-0009,REV-001,review,medium,Periodic client review is overdue.,due=2024-01-01; as_of=2026-10-24,2026-10-24T09:16:33+00:00,open
+EXC-E5FFBCC6E35108,SYN-0010,DOC-001,documentation,high,No supporting document metadata is recorded for this client.,document_count=0,2026-10-24T09:16:33+00:00,open

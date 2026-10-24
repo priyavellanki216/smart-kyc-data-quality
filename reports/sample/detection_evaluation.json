@@ -1,0 +1,88 @@
+{
+  "dataset": {
+    "as_of": "2026-10-24",
+    "clients": 40,
+    "seed": 2026,
+    "synthetic": true
+  },
+  "duplicate_evaluation": {
+    "candidate_pairs_generated": 3,
+    "candidate_precision_against_seeded_pairs": 0.6666666666666666,
+    "candidate_recall_against_seeded_pairs": 1.0,
+    "false_positive_candidates": 1,
+    "false_positive_pairs": [
+      "SYN-0033 / SYN-0034"
+    ],
+    "interpretation": "Candidates require human investigation and are not confirmed duplicates.",
+    "missed_pairs": [],
+    "missed_seeded_pairs": 0,
+    "seeded_pairs_candidate_generated": 2,
+    "seeded_true_duplicate_pairs": 2
+  },
+  "portfolio_summary": {
+    "aged_open_cases_14d": 0,
+    "case_aging_mean_days": 0.0,
+    "complete_clients": 27,
+    "duplicate_candidates": 3,
+    "exceptions_by_category": {
+      "address": 1,
+      "attributes": 1,
+      "completeness": 1,
+      "dates": 1,
+      "documentation": 2,
+      "identity": 1,
+      "ownership": 1,
+      "review": 1
+    },
+    "exceptions_by_severity": {
+      "high": 7,
+      "medium": 2
+    },
+    "incomplete_clients": 13,
+    "open_exceptions": 9,
+    "open_review_cases": 13,
+    "overdue_periodic_reviews": 1,
+    "required_fields_complete": 39,
+    "review_outcomes": {
+      "in_review": 1,
+      "pending": 12
+    },
+    "total_clients": 40
+  },
+  "report_files": [
+    "audit_history.csv",
+    "beneficial_owners.csv",
+    "case_aging.csv",
+    "client_quality_summary.csv",
+    "clients.csv",
+    "dim_client.csv",
+    "dim_rule.csv",
+    "documents.csv",
+    "duplicate_candidates.csv",
+    "exceptions.csv",
+    "fact_duplicate_candidates.csv",
+    "fact_exceptions.csv",
+    "fact_review_actions.csv",
+    "fact_review_cases.csv",
+    "review_actions.csv",
+    "review_queue.csv",
+    "reviewer_workload.csv",
+    "smart_kyc_reconciliation.xlsx"
+  ],
+  "sample_review_action": {
+    "case_id": "CASE-34CDA0B756FE",
+    "client_id": "SYN-0002",
+    "reviewer": "Demo Analyst",
+    "status": "in_review"
+  },
+  "validation_evaluation": {
+    "detected_defects": 9,
+    "false_positive_exceptions": 0,
+    "missed": [],
+    "missed_defects": 0,
+    "recall": 1.0,
+    "recall_denominator": "distinct seeded (client_id, rule_id) validation defects",
+    "seeded_defects": 9,
+    "unseeded_detected": []
+  }
+}

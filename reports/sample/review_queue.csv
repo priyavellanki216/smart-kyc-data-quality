@@ -1,0 +1,14 @@
+﻿case_id,client_id,legal_name,registration_number,country,status,priority_score,priority_band,priority_explanation,assigned_reviewer,opened_at,updated_at,age_days,exception_categories,open_exception_count
+CASE-DC529DDCCCBF,SYN-0010,Crown Ridge Logistics Ltd,IE-07000009,IE,pending,60,High,mandatory information +25; potential duplicate +15; high exception +20,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,documentation,1
+CASE-34CDA0B756FE,SYN-0002,,IE-07000001,IE,in_review,45,Medium,mandatory information +25; high exception +20,Demo Analyst,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,completeness,1
+CASE-5F57E53FC8C1,SYN-0006,Orchid Harbor Systems Ltd,US-07000005,US,pending,45,Medium,mandatory information +25; high exception +20,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,ownership,1
+CASE-DA93DB4EAA4E,SYN-0005,Lindenport Foods Ltd,GB-07000004,GB,pending,40,Medium,expired document +20; high exception +20,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,documentation,1
+CASE-C4FA9E3F69B2,SYN-0007,Bluehaven Logistics Ltd,IE-07000006,IE,pending,35,Medium,conflicting attributes +15; high exception +20,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,attributes,1
+CASE-620F21A10F64,SYN-0009,Crownridge Logistics Ltd,GB-07000008,GB,pending,25,Low,potential duplicate +15; medium exception +10,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,review,1
+CASE-E83583C7BF68,SYN-0003,Vela Biotechnologies Ltd,??INVALID,SG,pending,20,Low,high exception +20,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,identity,1
+CASE-874A0DB46705,SYN-0004,Cairnfield Energy Group Ltd,US-07000003,US,pending,20,Low,high exception +20,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,dates,1
+CASE-39C4969DF78A,SYN-0011,Meridian Field Services Ltd,IE-07000011,IE,pending,15,Low,potential duplicate +15,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,,0
+CASE-983158670C35,SYN-0012,Pinewell Manufacturing Ltd,IE-07000011,IE,pending,15,Low,potential duplicate +15,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,,0
+CASE-5B44068DB464,SYN-0033,Harborfield Analytics Ltd,US-07000032,US,pending,15,Low,potential duplicate +15,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,,0
+CASE-3D2D552C177B,SYN-0034,Harbor Field Analytics Inc,SG-07000033,SG,pending,15,Low,potential duplicate +15,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,,0
+CASE-656069A6D5DE,SYN-0008,Westbridge Components Ltd,IE-07000007,IE,pending,10,Low,medium exception +10,,2026-10-24T09:16:33+00:00,2026-10-24T09:16:33+00:00,0,address,1

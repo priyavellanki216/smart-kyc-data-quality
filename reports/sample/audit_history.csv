@@ -1,0 +1,15 @@
+﻿audit_id,entity_type,entity_id,action,actor,previous_value,new_value,notes,timestamp
+14,review_case,CASE-34CDA0B756FE,evidence_requested,Demo Analyst,pending,in_review,Synthetic sample action: requested a corrected legal-name record; follow-up remains open.,2026-10-24T09:16:33+00:00
+13,review_case,CASE-3D2D552C177B,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+12,review_case,CASE-5B44068DB464,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+11,review_case,CASE-983158670C35,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+10,review_case,CASE-39C4969DF78A,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+9,review_case,CASE-DC529DDCCCBF,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+8,review_case,CASE-620F21A10F64,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+7,review_case,CASE-656069A6D5DE,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+6,review_case,CASE-C4FA9E3F69B2,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+5,review_case,CASE-5F57E53FC8C1,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+4,review_case,CASE-DA93DB4EAA4E,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+3,review_case,CASE-874A0DB46705,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+2,review_case,CASE-E83583C7BF68,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
+1,review_case,CASE-34CDA0B756FE,case_created,system:synthetic_seed,,pending,Seeded synthetic review case,2026-10-24T09:16:33+00:00
